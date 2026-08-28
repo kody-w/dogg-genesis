@@ -1,0 +1,26 @@
+{
+ "schema": "dogg/0-mission",
+ "dimension": "genesis:@kody-w/dogg-genesis",
+ "fields": [
+  {
+   "name": "wordlist_words",
+   "path": "payload.genesis.wordlist_words",
+   "unit": "words"
+  },
+  {
+   "name": "kit_files",
+   "path": "payload.genesis.kit_files",
+   "unit": "files"
+  },
+  {
+   "name": "kit_bytes",
+   "path": "payload.genesis.kit_bytes",
+   "unit": "bytes"
+  }
+ ],
+ "default": [
+  "wordlist_words",
+  "kit_files",
+  "kit_bytes"
+ ]
+}
