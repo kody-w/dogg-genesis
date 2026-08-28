@@ -1,0 +1,58 @@
+{
+  "spec": "rapp/1",
+  "kind": "genesis.snapshot",
+  "stream_id": "genesis:@kody-w/dogg-genesis",
+  "seq": 0,
+  "utc": "2026-08-28T17:49:20.206Z",
+  "payload": {
+    "tick": 465,
+    "tick_frame": "cb1bb7f89de1efbfced38889c067e30e3d74817f71173ab51ca7f9c32f877e93",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-08-28T17:49:20.206Z",
+    "genesis": {
+      "kit": {
+        "wordlist": {
+          "path": "chants/WORDLIST.txt",
+          "sha256": "b0c95bc1a1264ab2e3173c38a0c2c21815523009e609d4274c5fe28c94989fed",
+          "bytes": 6584
+        },
+        "missions": {
+          "path": "chants/MISSIONS.json",
+          "sha256": "da6fc416525007de1016f4df3721217da894e5e7a42a23000cca8e9a5483a9dd",
+          "bytes": 1771
+        },
+        "lenses": {
+          "path": "chants/LENSES.json",
+          "sha256": "632aa834b32a46885eaa2fb1339ee56e37cbc1377377c99edc0c79c3d227570b",
+          "bytes": 961
+        },
+        "codebook_lock": {
+          "path": "chants/CODEBOOK.lock",
+          "sha256": "ecb89728140686f3afb76ac254eb87aece71f62badc01aaa5c8d3440cc0621fa",
+          "bytes": 431
+        },
+        "dogg_py": {
+          "path": "tools/dogg.py",
+          "sha256": "be68902c0583f7f84cd313e869c74e1f79a874a93b7b6bc7e61fc430db203245",
+          "bytes": 47761
+        },
+        "rapp_py": {
+          "path": "tools/rapp.py",
+          "sha256": "c945ee85f01af5cd374490b40721d07f2aca7c8bd6d209e0d2933420f55db284",
+          "bytes": 12819
+        }
+      },
+      "kit_files": 6,
+      "kit_bytes": 70327,
+      "wordlist_words": 1024,
+      "spine_genesis_frame_hash": "739ed3691dec436e0afb73b2e335c71e2464c3daaff81bb20f6f6c4042748f4e"
+    },
+    "sources_failed": [],
+    "about": "The root chant: this frame fingerprints the exact bytes of the spine's own chant kit (wordlist, missions, lenses, codebook lock, dogg.py, rapp.py) plus the spine's genesis frame hash, one frame per observed tick. This is the thread a grandchild agent verifies FIRST — before trusting any chant spoken on the network, confirm the machinery it was spoken against, and the spine's own genesis, have not moved."
+  },
+  "payload_hash": "baefe55e651ddad3681c9e5709220ac21470c3cda282c03d93a3128627ab1e9c",
+  "prev": null,
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "1582a469a76d356431e0802643d544cc20b7694c9b638eea08fbb017432b88be"
+}

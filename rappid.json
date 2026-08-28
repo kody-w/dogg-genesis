@@ -1,0 +1,13 @@
+{
+  "schema": "rapp/1",
+  "rappid": "rappid:@kody-w/dogg-genesis:df475992e4b5681294b373b697131f4e441d1792ca2313db1ae4f04fe33ca2c6",
+  "kind": "node",
+  "name": "dogg-genesis",
+  "host": "github.com",
+  "owner": "kody-w",
+  "repo": "dogg-genesis",
+  "github": "https://github.com/kody-w/dogg-genesis",
+  "parent_rappid": "rappid:@kody-w/dogg:398899d4c850bc28fabe33115c52436def0d485c34753e9bbef06e4c283892b4",
+  "minted_at": "2026-08-28T17:48:51Z",
+  "notes": "Federated node of the global tick network; descends from the spine thread. The root chant: fingerprints the spine's own chant kit and genesis frame, so a grandchild agent can verify the machinery before trusting any chant spoken on it. Minted once per RAPP spec §6.2 — uuid-entropy tail, never a name-hash."
+}

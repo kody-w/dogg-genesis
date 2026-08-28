@@ -1,0 +1,57 @@
+{
+  "spec": "rapp/1",
+  "kind": "genesis.snapshot",
+  "stream_id": "genesis:@kody-w/dogg-genesis",
+  "seq": 1,
+  "utc": "2026-08-28T17:52:52.493Z",
+  "payload": {
+    "tick": 466,
+    "tick_frame": "cf6f5a2b2e7ffc225b72ef697b9a5c6870869ce0da0fa85ae2c9b566e547a4fb",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-08-28T17:52:52.493Z",
+    "genesis": {
+      "kit": {
+        "wordlist": {
+          "path": "chants/WORDLIST.txt",
+          "sha256": "b0c95bc1a1264ab2e3173c38a0c2c21815523009e609d4274c5fe28c94989fed",
+          "bytes": 6584
+        },
+        "missions": {
+          "path": "chants/MISSIONS.json",
+          "sha256": "da6fc416525007de1016f4df3721217da894e5e7a42a23000cca8e9a5483a9dd",
+          "bytes": 1771
+        },
+        "lenses": {
+          "path": "chants/LENSES.json",
+          "sha256": "632aa834b32a46885eaa2fb1339ee56e37cbc1377377c99edc0c79c3d227570b",
+          "bytes": 961
+        },
+        "codebook_lock": {
+          "path": "chants/CODEBOOK.lock",
+          "sha256": "ecb89728140686f3afb76ac254eb87aece71f62badc01aaa5c8d3440cc0621fa",
+          "bytes": 431
+        },
+        "dogg_py": {
+          "path": "tools/dogg.py",
+          "sha256": "be68902c0583f7f84cd313e869c74e1f79a874a93b7b6bc7e61fc430db203245",
+          "bytes": 47761
+        },
+        "rapp_py": {
+          "path": "tools/rapp.py",
+          "sha256": "c945ee85f01af5cd374490b40721d07f2aca7c8bd6d209e0d2933420f55db284",
+          "bytes": 12819
+        }
+      },
+      "kit_files": 6,
+      "kit_bytes": 70327,
+      "wordlist_words": 1024,
+      "spine_genesis_frame_hash": "739ed3691dec436e0afb73b2e335c71e2464c3daaff81bb20f6f6c4042748f4e"
+    },
+    "sources_failed": []
+  },
+  "payload_hash": "7a3ca39e54b9341a3c7affb4355d72e2ddb1668f882d3187a1f94366c0849dc6",
+  "prev": "baefe55e651ddad3681c9e5709220ac21470c3cda282c03d93a3128627ab1e9c",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "d01ca246cac3c2f503520717503b0912e2ec2ef3ba0a76768279fa6e1b16b393"
+}
