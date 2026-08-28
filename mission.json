@@ -4,17 +4,17 @@
  "fields": [
   {
    "name": "wordlist_words",
-   "path": "payload.genesis.wordlist_words",
+   "path": "genesis.wordlist_words",
    "unit": "words"
   },
   {
    "name": "kit_files",
-   "path": "payload.genesis.kit_files",
+   "path": "genesis.kit_files",
    "unit": "files"
   },
   {
    "name": "kit_bytes",
-   "path": "payload.genesis.kit_bytes",
+   "path": "genesis.kit_bytes",
    "unit": "bytes"
   }
  ],
