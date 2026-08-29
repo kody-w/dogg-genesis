@@ -1,8 +1,8 @@
 {
-  "count": 3,
+  "count": 4,
   "sealed_epochs": 0,
   "epoch_size": 288,
   "stream_id": "genesis:@kody-w/dogg-genesis",
-  "head_frame": "8c8c139fcea07400382b866333ccd295004442dc8522c9aaa55fce72d60deb96",
-  "updated": "2026-08-28T20:08:02.498Z"
+  "head_frame": "4aede3ec68c7cf29372133969cefbc5ce3288e0fd8751a1048243a88c17d520f",
+  "updated": "2026-08-29T12:39:36.450Z"
 }
