@@ -1,0 +1,23 @@
+{
+  "spec": "rapp/1",
+  "kind": "genesis.snapshot",
+  "stream_id": "genesis:@kody-w/dogg-genesis",
+  "seq": 23,
+  "utc": "2026-09-18T11:09:32.281Z",
+  "payload": {
+    "tick": 935,
+    "tick_frame": "9cf09e6864361fe7f9918cd7bd65b421d4a570e629e6051ae46bf4905a40091a",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-09-18T11:09:32.281Z",
+    "genesis": {},
+    "sources_failed": [
+      "kit",
+      "spine_genesis_frame_hash"
+    ]
+  },
+  "payload_hash": "622c3028e382640d83533e800ca903fc54c6107f03a76d0f28e8788a03cd76be",
+  "prev": "a4a6f9daf664cb5ca101715e37adccf435f948905cb3a4a388de2f414cbd4f55",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "2f557374b9219022356470a70c0c975be7b2727b09c5f1a2b46dc053207ebf29"
+}
