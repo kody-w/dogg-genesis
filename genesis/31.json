@@ -1,0 +1,58 @@
+{
+  "spec": "rapp/1",
+  "kind": "genesis.snapshot",
+  "stream_id": "genesis:@kody-w/dogg-genesis",
+  "seq": 31,
+  "utc": "2026-09-26T11:20:02.500Z",
+  "payload": {
+    "tick": 1344,
+    "tick_frame": "3f1e8f42c31b0ce6d2b4a6c58b0f3b1b1f85306fb4f156f9ec8cc6623cdd48be",
+    "spine": "kody-w/dogg",
+    "fetched_utc": "2026-09-26T11:20:02.500Z",
+    "genesis": {
+      "kit": {
+        "wordlist": {
+          "path": "chants/WORDLIST.txt",
+          "sha256": "b0c95bc1a1264ab2e3173c38a0c2c21815523009e609d4274c5fe28c94989fed",
+          "bytes": 6584
+        },
+        "missions": {
+          "path": "chants/MISSIONS.json",
+          "sha256": "2dca7ae0a479d6006fa2ad2d2f3219c27ab7ee407285b3a8a85e60fe85c0117e",
+          "bytes": 9438
+        },
+        "lenses": {
+          "path": "chants/LENSES.json",
+          "sha256": "632aa834b32a46885eaa2fb1339ee56e37cbc1377377c99edc0c79c3d227570b",
+          "bytes": 961
+        },
+        "codebook_lock": {
+          "path": "chants/CODEBOOK.lock",
+          "sha256": "48e39f40f948e64f89c86bf74e4fc4a09558233bdb1c88b4db47ca530dbbf4c5",
+          "bytes": 431
+        },
+        "dogg_py": {
+          "path": "tools/dogg.py",
+          "sha256": "763462c420a9743870b184cc84ad72393e71e42a3e93c3cadd360aa783564481",
+          "bytes": 51555
+        },
+        "rapp_py": {
+          "path": "tools/rapp.py",
+          "sha256": "c945ee85f01af5cd374490b40721d07f2aca7c8bd6d209e0d2933420f55db284",
+          "bytes": 12819
+        }
+      },
+      "kit_files": 6,
+      "kit_bytes": 81788,
+      "wordlist_words": 1024
+    },
+    "sources_failed": [
+      "spine_genesis_frame_hash"
+    ]
+  },
+  "payload_hash": "dab422811391af29b8e38f99c1a1303e49c2db2e1db83cdc5409776d30e42f1a",
+  "prev": "46388179c91fb8c460537baf011129699a4a62a85506882e072874e01e0ad728",
+  "prev_wave": null,
+  "sig": null,
+  "frame_hash": "0acb13ef38be2aaa445830d1f884c86c31a22237b57d8333e03a9e8f172aae53"
+}
